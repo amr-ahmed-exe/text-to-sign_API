@@ -1,0 +1,8 @@
+fastapi==0.135.2
+uvicorn==0.42.0
+websockets==16.0
+torch==2.1.2+cpu
+torchtext==0.6.0
+ConfigArgParse==1.7.5
+tqdm==4.67.3
+six==1.17.0
