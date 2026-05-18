@@ -3,7 +3,7 @@
 FROM python:3.10-slim
 
 # Allow statements and log messages to immediately appear in the Knative logs
-ENV PYTHONUNBUFFERED=True
+ENV PYTHONUNBUFFERED True
 # Set the working directory
 WORKDIR /app
 
