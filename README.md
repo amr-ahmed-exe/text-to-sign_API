@@ -1,4 +1,4 @@
-<h1 align="center">☁️ Text-to-Sign Translation API</h1>
+<h1 align="center"> Text-to-Sign Translation API</h1>
 
 <div align="center">
 
@@ -13,20 +13,20 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 The **Text-to-Sign API** acts as the backend service that powers the translation layer of the **Sign AI** platform. It receives natural language text from the client, translates it into Sign Language Gloss structure using OpenNMT, and returns the corresponding pre-calculated 3D animation keypoints for the client to render the avatar.
 
-### ✨ Key Features
+###  Key Features
 
-- ⚡ **FastAPI Powered:** High-performance REST endpoints for instant translation.
-- 🧠 **Gloss Translation:** Uses trained OpenNMT models to convert complex sentences into simplified Sign Language grammatical structures (Glosses).
-- 📂 **Keypoint Mapping:** Maps the generated glosses to a dictionary of 3D animation keypoints (`gloss_keypoints.json` & `fingerspelling_keypoints.json`).
-- 🐳 **Dockerized:** Fully containerized with a lightweight Dockerfile for easy deployment on Azure VMSS or AWS.
+-  **FastAPI Powered:** High-performance REST endpoints for instant translation.
+-  **Gloss Translation:** Uses trained OpenNMT models to convert complex sentences into simplified Sign Language grammatical structures (Glosses).
+-  **Keypoint Mapping:** Maps the generated glosses to a dictionary of 3D animation keypoints (`gloss_keypoints.json` & `fingerspelling_keypoints.json`).
+-  **Dockerized:** Fully containerized with a lightweight Dockerfile for easy deployment on Azure VMSS or AWS.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Option 1: Run with Docker (Recommended)
 
@@ -52,7 +52,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-## 📡 Endpoints
+##  Endpoints
 
 ### `POST /translate`
 Accepts a JSON payload containing English/Arabic text and returns the corresponding Sign Language gloss and animation keypoints.
@@ -74,7 +74,16 @@ Accepts a JSON payload containing English/Arabic text and returns the correspond
 
 ---
 
-## 👨‍💻 Developer
+##  License
 
-**Amr A. El-Mokadam**  
-*Graduation Project — Suez Canal University (Class of 2026)*
+Copyright © 2026 **Amr Ahmed**. All Rights Reserved.
+
+---
+
+<div align="center">
+
+Made with ❤️ as a graduation project · Suez Canal University 2026
+
+If you find this useful, please consider giving it a star!
+
+</div>
