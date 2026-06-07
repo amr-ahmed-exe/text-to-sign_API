@@ -7,7 +7,7 @@
 ![OpenNMT](https://img.shields.io/badge/OpenNMT-NLP-E34F26?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-**A cloud-ready REST API for translating spoken language text into Sign Language glosses and 3D keypoints.**
+**A cloud-ready for translating spoken language text into Sign Language glosses and 3D keypoints.**
 
 </div>
 
@@ -55,7 +55,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ##  Endpoints
 
 ### `POST /translate`
-Accepts a JSON payload containing English/Arabic text and returns the corresponding Sign Language gloss and animation keypoints.
+Accepts a JSON payload containing English text and returns the corresponding Sign Language gloss and animation keypoints.
 
 **Request:**
 ```json
